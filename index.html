@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bezier curves</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=performance.now"></script>
+<script src="p5.min.js"></script>
+<script src="sketch.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body>
+<h1 style="text-align:center;">BEZIER CURVES</h1>
+
+<div id="container">
+  <div class="dummy_div"></div>
+  <div class="main_sides"> 
+    <div class="top_left_button_div">
+      <button id="home" class ="main_button" onclick="document.location = 'www.nos.nl'">HOME</button>
+    </div>
+    <div id="reset-div">
+      <div class='main_filler'></div>  
+    </div>
+    <div class='main_filler'></div>  
+  </div>
+  
+  <div class="split_div"></div>
+  <div id='sketch-div'></div> 
+  <div class="split_div"></div>
+  
+  <div class="main_sides"> 
+    <div id='info_button' class="top_right_button_div">
+    </div>
+    <div id="generate-div">
+      <div class='main_filler'></div>  
+    </div>
+    <div id='extra_info' class='main_filler'>
+      <p class="slidernames" style="order:3;">SPEED</p>
+      <p class="slidernames" style="order:1;">LOCATION</p>
+      <p class="slidernames" style="order:5;">DISPLAY MODE</p>
+    </div>  
+  </div>  
+  <div class="dummy_div"></div>
+</div>
+
+</body>
+</html>
